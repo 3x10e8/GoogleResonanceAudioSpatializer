@@ -2,9 +2,12 @@
 
 // Make your choice
 let dimensionSelection = 'custom';
-let materialSelection = 'marble';
-let soundFile = 'Sounds/Trial_41_Conv1.wav';
-let trajFile = 'Trajectories/Traj_Trial_1_Conv_1.csv';
+let materialSelection = 'outside';
+//let soundFile = 'Sounds/Trial_41_Conv1.wav';
+let soundFile = 'Sounds/expeditionvol1_08_scott.mp3';
+//let trajFile = 'Trajectories/Traj_Trial_1_Conv_1.csv';
+//let trajFile = 'Trajectories/az-135-deg_dur-60-s_step-0.1-s.csv';
+let trajFile = 'Trajectories/az-45-deg_dur-1500-s_step-0.1-s.csv';
 
 // Read CSV file for the trajectory
 var trajData;
