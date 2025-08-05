@@ -2,13 +2,15 @@
 
 // Make your choice
 let dimensionSelection = 'custom';
-let materialSelection = 'outside';
+let materialSelection = 'curtains';
 //let soundFile = 'Sounds/Trial_41_Conv1.wav';
 //let soundFile = 'Sounds/expeditionvol1_08_scott.mp3';
-let soundFile = 'Sounds/daysofcomet_16_wells.mp3';
+//let soundFile = 'Sounds/daysofcomet_16_wells.mp3';
+let soundFile = 'Sounds/MIDI-Unprocessed_041_PIANO041_MID--AUDIO-split_07-06-17_Piano-e_1-01_wav--2.wav'
 //let trajFile = 'Trajectories/Traj_Trial_1_Conv_1.csv';
 //let trajFile = 'Trajectories/az-135-deg_dur-60-s_step-0.1-s.csv';
-let trajFile = 'Trajectories/az-45-deg_dur-1500-s_step-0.1-s.csv';
+//let trajFile = 'Trajectories/az-45-deg_dur-1500-s_step-0.1-s.csv';
+let trajFile = 'Trajectories/speakers-24_dur-24.0-s_step-0.1-s.csv'
 
 // Read CSV file for the trajectory
 var trajData;
@@ -40,7 +42,8 @@ let dimensions = {
     width: 20, height: 10, depth: 20,
   },
   custom: {
-    width: 6, height: 4, depth: 8,
+    width: 9.1, height: 8.35, depth: 14.65,
+    //width: 6, height: 4, depth: 8,
   },
 };
 
